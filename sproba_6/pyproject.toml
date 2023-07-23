@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sproba-6"
+version = "0.1.0"
+description = ""
+authors = ["Іван Лубик <126516121+ivanlubyk@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "sproba_6"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+pymongo = "^4.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
